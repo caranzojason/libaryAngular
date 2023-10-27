@@ -1,0 +1,22 @@
+<div class="form-container">
+  <div class="form-header">
+    <h2>View Reviews</h2>
+    <button (click)="closeDialog()" class="close-button">Close</button>
+  </div>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Book ID</th>
+        <th>Rating</th>
+        <th>Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let reviewItem of reviews">
+        <td>{{ reviewItem.bookId }}</td>
+        <td>{{ reviewItem.rating }}</td>
+        <td>{{ reviewItem.comment }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

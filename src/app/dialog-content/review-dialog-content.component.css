@@ -1,0 +1,72 @@
+/* Style the modal overlay */
+.mat-dialog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the form container */
+.form-container {
+  width: 300px;
+  text-align: center;
+}
+
+/* Style the form header */
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Style the "Close" button */
+.close-button {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Style the "Close" button on hover */
+.close-button:hover {
+  background-color: #c9302c;
+}
+
+/* Style form controls */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Style labels */
+label {
+  font-weight: bold;
+}
+
+/* Style input fields */
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the submit button */
+.submit-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Style the submit button on hover */
+.submit-button:hover {
+  background-color: #0056b3;
+}
